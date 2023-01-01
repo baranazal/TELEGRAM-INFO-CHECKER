@@ -9,9 +9,9 @@ This script allows you to easily extract your personal information from Telegram
 
 ## Getting Started
 
-To run the code, you will need to install the following libraries:\n
-    1- python-telegram-bot: This library provides a Python interface for the Telegram Bot API.\n
-    2- pytz: This library provides time zone data for Python.\n
+To run the code, you will need to install the following libraries:<br />
+    1- python-telegram-bot: This library provides a Python interface for the Telegram Bot API.<br />
+    2- pytz: This library provides time zone data for Python.<br />
 
 ```
 pip install python-telegram-bot pytz
