@@ -9,7 +9,7 @@ TOKEN = "YOUR_TOKEN"
 def start(update, context):
     user = update.message.from_user
     now = datetime.datetime.now()
-    timezone = pytz.timezone("YOUR_TIMEZONE")
+    timezone = pytz.timezone("YOUR_TIMEZONE") ## example: timezone("Asia/Beirut")
     now = timezone.localize(now)
     text = "Welcome!!\n\nYou requested your information on {} at {}.\n\nHere is the information that you have requested:\n\nHave a great day <3\n\nContact me here: https://wa.me/962791466699".format(now.strftime("%m/%d/%Y"), now.strftime("%I:%M %p"))
                                                                                                                                                                                                           
