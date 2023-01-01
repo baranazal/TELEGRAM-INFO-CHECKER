@@ -11,7 +11,8 @@ def start(update, context):
     now = datetime.datetime.now()
     timezone = pytz.timezone("YOUR_TIMEZONE")
     now = timezone.localize(now)
-    text = "Welcome!!\n\nYou requested your information on {} at {} {}.\n\nHere is the information that you have requested:\n\nHave a great day <3\n\nContact me here: https://wa.me/962791466699".format(now.strftime("%m/%d/%Y"), now.strftime("%I:%M %p"), now.strftime("%z"))
+    text = "Welcome!!\n\nYou requested your information on {} at {}.\n\nHere is the information that you have requested:\n\nHave a great day <3\n\nContact me here: https://wa.me/962791466699".format(now.strftime("%m/%d/%Y"), now.strftime("%I:%M %p"))
+                                                                                                                                                                                                          
     context.bot.send_message(chat_id=update.effective_chat.id, text=text)
     text = ""
     if user.first_name:
