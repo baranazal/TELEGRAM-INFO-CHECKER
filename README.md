@@ -4,7 +4,7 @@
 <a target="_blank"><img src = "https://user-images.githubusercontent.com/72268356/210165331-ad6ca236-6282-41e6-8d9a-fa9e15b0e6f1.jpg" alt="logo"></a>
    </p>
 
-This script allows you to easily extract your personal information from Telegram, including your name, chat ID, and other relevant details. With this tool, you can quickly gather important data about your Telegram account and use it for various purposes, such as generating reports or analyzing your usage patterns. The script is simple to use and requires no special technical knowledge, making it accessible to anyone. Whether you are a Telegram power user or just looking to get a better understanding of your account, this script is a valuable resource that can help you get the most out of your Telegram experience.
+This script extracts personal information from Telegram, including your name, chat ID, and other details. It also uses a library to send you the date and time of the info request. It is easy to use and doesn't require any technical knowledge. You can use this information for various purposes, like generating reports or analyzing usage patterns. Whether you're a frequent Telegram user or just want to understand your account better, this script is a helpful resource.
 
 
 ## Getting Started
