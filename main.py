@@ -9,7 +9,7 @@ TOKEN = "YOUR_TOKEN"
 def start(update, context):
     user = update.message.from_user
     now = datetime.datetime.now()
-    timezone = pytz.timezone("Asia/Beirut")
+    timezone = pytz.timezone("YOUR_TIMEZONE")
     now = timezone.localize(now)
     text = "Welcome!!\n\nYou requested your information on {} at {} {}.\n\nHere is the information that you have requested:\n\nHave a great day <3\n\nContact me here: https://wa.me/962791466699".format(now.strftime("%m/%d/%Y"), now.strftime("%I:%M %p"), now.strftime("%z"))
     context.bot.send_message(chat_id=update.effective_chat.id, text=text)
