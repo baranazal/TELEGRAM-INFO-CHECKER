@@ -19,7 +19,8 @@ pip install python-telegram-bot pytz
 
 This will install the required libraries.<br /><br />
 
-You will also need to replace TOKEN with your actual Telegram bot token in the code. You can obtain a bot token by talking to the @BotFather bot on Telegram and following the instructions here : https://t.me/botfather . <br /><br />
+You will also need to replace "YOUR_TOKEN" with your actual Telegram bot token in the code. You can obtain a bot token by talking to the @BotFather bot on Telegram and following the instructions here : https://t.me/botfather . <br /><br />
+
 
 Once you have installed the libraries and obtained a bot token, you can run the code using Python. Open a terminal, navigate to the directory where the code is saved, and run the following command:
 
