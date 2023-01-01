@@ -9,7 +9,9 @@ This script allows you to easily extract your personal information from Telegram
 
 ## Getting Started
 
-''' pip install python-telegram-bot pytz
+''' 
+pip install python-telegram-bot pytz
+'''
 
 
 ### Prerequisites
