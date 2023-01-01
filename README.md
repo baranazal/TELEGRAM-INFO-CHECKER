@@ -1,6 +1,8 @@
 # About
 
-A brief description of the project and its purpose.
+<p align="center">
+<a target="_blank"><img src = "https://user-images.githubusercontent.com/72268356/210165331-ad6ca236-6282-41e6-8d9a-fa9e15b0e6f1.jpg" alt="logo"></a>
+   </p>
 
 ## Getting Started
 
