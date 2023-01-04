@@ -1,29 +1,67 @@
-# About
+# Telegram User Information Bot
 
 <p align="center">
 <a target="_blank"><img src = "https://user-images.githubusercontent.com/72268356/210165331-ad6ca236-6282-41e6-8d9a-fa9e15b0e6f1.jpg" alt="logo"></a>
    </p>
 
-This script extracts personal information from Telegram, including your name, chat ID, and other details. It also uses a library to send you the date and time of the info request. It is easy to use and doesn't require any technical knowledge. You can use this information for various purposes, like generating reports or analyzing usage patterns. Whether you're a frequent Telegram user or just want to understand your account better, this script is a helpful resource.
-
+A Telegram bot that can provide information about a user, such as their name, language, and chat ID.
 
 ## Getting Started
 
-To run the code, you will need to install the following libraries:<br />
-    1- python-telegram-bot: This library provides a Python interface for the Telegram Bot API.<br />
-    2- pytz: This library provides time zone data for Python.<br />
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+You will need the following package:
+
+- python-telegram-bot
+
+You can install this package using pip:
 
 ```
-pip install python-telegram-bot pytz
+pip install python-telegram-bot
 ```
 
-This will install the required libraries.<br /><br />
 
-You will also need to replace "YOUR_TOKEN" with your actual Telegram bot token in the code. You can obtain a bot token by talking to the @BotFather bot on Telegram and following the instructions here : https://t.me/botfather . <br /><br />
+### Installing
+
+Clone the repository to your local machine:
+
+```
+git clone https://github.com/your-username/telegram-user-info-bot.git
+```
+
+Or you can download it manually 
 
 
-Once you have installed the libraries and obtained a bot token, you can run the code using Python. Open a terminal, navigate to the directory where the code is saved, and run the following command:
+### Running the bot
+
+You will also need to replace "YOUR_TOKEN" with your actual Telegram bot token in the code. You can obtain a bot token by talking to the @BotFather bot on Telegram and following the instructions here : https://t.me/botfather . 
+
+Then run the following command:
 
 ```
 python main.py
 ```
+
+
+The bot should now be running and listening for updates.
+
+## Usage
+
+To use the bot, send the `/start` command to your bot. The bot will provide you with information about yourself, such as your first and last name, language, and chat ID.
+
+## Built With
+
+- [python-telegram-bot](https://pypi.org/project/python-telegram-bot/) - Used to interact with the Telegram API
+
+## Contributing
+
+If you would like to contribute to this project, please create a fork and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
