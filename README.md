@@ -58,10 +58,3 @@ To use the bot, send the `/start` command to your bot. The bot will provide you 
 ## Contributing
 
 If you would like to contribute to this project, please create a fork and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-
