@@ -28,7 +28,7 @@ pip install python-telegram-bot
 Clone the repository to your local machine:
 
 ```
-git clone https://github.com/your-username/telegram-user-info-bot.git
+https://github.com/baranazal/TELEGRAM-USER-INFO-BOT.git
 ```
 
 Or you can download it manually 
